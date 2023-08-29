@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(53, 53, 130);
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  opacity: 0.2;
+}
+
+@media screen and (max-whidth: 700px) {
+  .navbar {
+    flex-direction: column;
+  }
+}

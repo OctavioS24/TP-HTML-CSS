@@ -1,0 +1,16 @@
+aside {
+  flex: 30%;
+  padding: 20px;
+  background-color: rgba(235, 229, 221, 0.876);
+}
+
+aside h2,
+aside h3 {
+  color: rgb(53, 53, 130);
+}
+
+.video-link img {
+  width: 100%;
+  margin-bottom: 10px;
+  object-fit: cover;
+}

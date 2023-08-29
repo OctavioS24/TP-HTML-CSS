@@ -1,0 +1,16 @@
+@import "coman.css";
+@import "heder.css";
+@import "navbar.css";
+@import "aside.css";
+@import "content.css";
+
+.contenedor {
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+@media screen and (max-whidth: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
